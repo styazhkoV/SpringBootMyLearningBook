@@ -10,9 +10,4 @@ public class SkdApplication {
     public static void main(String[] args) {
         SpringApplication.run(SkdApplication.class, args);
     }
-    @Component
-    class Animal{
-        private String name;
-    }
-
 }
